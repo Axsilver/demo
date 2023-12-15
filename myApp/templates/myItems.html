@@ -1,0 +1,17 @@
+{% extends 'base.html' %} 
+
+{%block title%} My Items {%endblock%}
+
+{%block content%}
+<h1>My Items</h1>
+<ul>
+    {% for item in myItems%}
+
+    <li>
+        {{item.title}}: {{item.descript}}
+    </li>
+    {% endfor %}
+</ul>
+
+
+{%endblock%}
