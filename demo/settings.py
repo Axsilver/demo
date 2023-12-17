@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'demo.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django_pg8000',
-        'NAME': 'axsineyi_axsilver',
-        'USER': 'axsineyi_axplat',
-        'PASSWORD': 'F@HaLSAS26g3',
+        'ENGINE': 'mysql.connector.django',
+        'NAME': 'axsineyi_mysql',
+        'USER': 'axsineyi_myuser',
+        'PASSWORD': '{H)v~KP!,$xO',
         'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'PORT': '3306',
         
     }
 }
@@ -115,7 +115,7 @@ TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)

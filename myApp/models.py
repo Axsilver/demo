@@ -4,4 +4,4 @@ from django.db import models
 
 class MyItem(models.Model):
     title = models.CharField(max_length=200)
-    descript = models.CharField(max_length=400)
+    descript = models.CharField(max_length=400) 
