@@ -13,4 +13,7 @@ def myItems(request):
 def aboutMe(request):
     return render(request, "aboutMe.html")
 
+def lobby(request):
+    return render(request, "chat/lobby.html")
+
  
