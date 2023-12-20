@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-dw3z+6jn!(w&2)s%g*1@%r_qct8esqj5=^s3qjz_xgbr&2e-xv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["axsilver.com", "www.axsilver.com", '127.0.0.1', 'http://axplat.pythonanywhere.com']
+ALLOWED_HOSTS = ["axsilver.com", "www.axsilver.com", '127.0.0.1', 'http://axplat.pythonanywhere.com', 'https://mywebapp-dk6i.onrender.com']
 
 
 # Application definition
